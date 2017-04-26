@@ -1,8 +1,7 @@
 # docker-rails-nginx-unicorn
 [![](https://images.microbadger.com/badges/image/zeroc0d3/docker-rails-nginx-unicorn.svg)](https://microbadger.com/images/zeroc0d3/docker-rails-nginx-unicorn "Layers") [![](https://images.microbadger.com/badges/version/zeroc0d3/docker-rails-nginx-unicorn.svg)](https://microbadger.com/images/zeroc0d3/docker-rails-nginx-unicorn "Latest")
 
-Docker Rails + Nginx + Unicorn (from Ubuntu 16.04 &amp; Ruby 2.4.0)
-Easy useable docker for rails. less configuration, affordable production.
+Docker Rails + Nginx + Unicorn (from Ubuntu 16.04 &amp; Ruby 2.4.0). Easy useable docker for rails. less configuration, affordable production.
 
 ## What's include
 
