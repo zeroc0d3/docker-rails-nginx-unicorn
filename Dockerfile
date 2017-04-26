@@ -23,7 +23,7 @@ ADD nginx-sites.conf /etc/nginx/sites-enabled/default
 RUN gem install foreman
 
 # Install the latest postgresql lib for pg gem
-RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
+RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main" > /etc/apt/sources.list.d/pgdg.list && \
     apt-get update && \
     DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --force-yes libpq-dev
